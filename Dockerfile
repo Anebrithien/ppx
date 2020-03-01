@@ -19,3 +19,5 @@ RUN conda install -y -c conda-forge pygrib
 RUN conda install -y scipy 
 RUN conda install -y matplotlib
 RUN conda install -y pandas
+RUN conda install -y -c conda-forge metpy
+
